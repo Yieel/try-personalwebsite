@@ -1,0 +1,229 @@
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.35rem;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(0,0,0) 0%, rgb(50,50,50) 99.4%);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-bottom: 9rem;
+    
+}
+
+footer {
+    font-size: 20px;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(0,0,0) 0%, rgb(50,50,50) 99.4%);
+    height: 8rem;
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    color: white;  
+}
+
+h2{
+    color: white;
+    font-size: 70px;
+}
+.container{
+    background: radial-gradient(circle at 5% 25%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    height: 100%;
+    width: 100%;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25.4rem;
+
+    
+}
+.content-greeting{
+    justify-content: center;
+    margin-left: 16rem;
+    margin-top: 4.5rem;
+}
+
+.content-left{
+    margin: 10em;
+}
+.content-profilepic{
+    margin-right: 11rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.logo p{
+    margin-top: 0.188rem;
+    margin-left: 0.4rem;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.navigation{
+    color: white;
+    
+    
+}
+.navigation ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+   
+   
+}
+.navigation li{
+    font-weight: bold;
+    margin-right: 3rem;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+}
+
+.projects{
+    text-align: center;
+    background-color:#333333;
+    margin: 3rem;
+    padding: 2rem;
+}
+.projects p{
+   padding: 1rem;
+    
+}
+.contact{
+    padding: 2rem;
+}
+.projects-container{
+    display: flex;
+    border-width: 0.2rem ;
+    
+    height: fit-content;
+    width: fit-content;
+    
+    
+}
+
+.about{
+    text-align: center;
+    background-color:#333333;
+    margin: 3rem;
+    padding: 2rem;
+
+
+}
+
+.about-container p{
+    padding: 1rem;
+}
+.arduino-timer{
+    background-color:#828282;
+    border-style: inset;
+    padding: 1rem;
+    
+}
+.arduino-garage{
+    background: #999da0;
+    border-style: inset;
+    padding: 1rem;
+}
+.snake-game{
+    background-color: #777b7e;
+    border-style: inset;
+    padding: 1rem;
+}
+.arduino-timer p{
+    
+}
+
+.about{
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    border-width: 0.2rem ;
+    text-align: center;
+    background-color:#333333;
+    margin: 1rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.chess{
+    background-color:#777b7e;
+    border-style: inset;
+    padding: 1rem;
+
+}
+
+.debating{
+    background: #828282;
+    border-style: inset;
+    padding: 1rem;
+
+}
+
+.quality{
+    background-color: #999da0;
+    border-style: inset;
+    padding: 1rem;
+
+}
+
+
+.contact{
+    text-align: center;
+}
+
+.socials ul{
+    color: white;
+    list-style-type: none;
+    font-size: 1rem;
+    display: flex;
+    
+    
+}
+
+
+
+.footer-bottom{
+    text-align: center;
+    
+}
+
+.footer-content{
+    margin-bottom: 2rem;
+}
+
+.socials{
+    justify-content: center;
+    display:flex
+}
+
+.socials a{
+    padding: 0.9rem;
+    
+    color: white;
+    text-decoration: none;
+}
